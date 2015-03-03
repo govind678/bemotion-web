@@ -14,7 +14,10 @@ test: &TEST
 production:
   adapter: postgresql
   encoding: utf8
-  database: bemotion_db_production
+  database: dfee2hrqu3250c
+  username: kowlfojjxnltsd
+  password: pDhwtcT7yrFL4nc163139erIHn
+
 
 cucumber:
   <<: *TEST
