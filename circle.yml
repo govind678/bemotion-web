@@ -3,11 +3,8 @@ machine:
   ruby:
     version: 2.1.2
 
-# DEPLOYMENT
 deployment:
-  prod:
-   branch: master
-   commands:
-     - git push git@heroku.com:bemotion-web.git $CIRCLE_SHA1:refs/heads/master
-     - heroku run rake db:migrate --app bemotion-web:
-         timeout: 400
+  staging:
+    branch: master
+    heroku:
+      appname: bemotion-web
