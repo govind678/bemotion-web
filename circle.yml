@@ -8,3 +8,5 @@ deployment:
     branch: master
     heroku:
       appname: bemotion-web
+    commands:
+     - heroku run rake db:migrate

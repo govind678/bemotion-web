@@ -47,5 +47,9 @@ end
 group :staging, :production do
   # Use Postgres as the database for Active Record
   gem 'pg'
+  gem 'rails_12factor'
+
+ruby "2.2.0"
+
 end
 
