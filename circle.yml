@@ -9,9 +9,3 @@ deployment:
     heroku:
       appname: bemotion-web
 
-  prod:
-    branch: master
-    heroku:
-      appname: bemotion-web
-      commands:
-        - heroku run rake db:migrate --app bemotion-web:
