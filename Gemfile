@@ -33,6 +33,9 @@ gem 'spring',        group: :development
 # Use puma as the app server
 gem 'puma'
 
+# Api gem for serialization
+gem 'active_model_serializers'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
