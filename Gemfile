@@ -42,6 +42,9 @@ gem 'active_model_serializers'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Use devise for user authentication
+gem "devise"
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
