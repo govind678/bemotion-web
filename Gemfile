@@ -47,12 +47,20 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+
+group :test do
+  # Use rspec as the test framework
+  gem "rspec-rails"
+  gem "factory_girl_rails"
+  gem 'ffaker'
+end
+
+
 group :staging, :production do
   # Use Postgres as the database for Active Record
   gem 'pg'
   gem 'rails_12factor'
+end
 
 ruby "2.1.2"
-
-end
 
